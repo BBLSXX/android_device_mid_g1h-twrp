@@ -11,6 +11,9 @@ $(call inherit-product-if-exists, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product-if-exists, vendor/twrp/config/common.mk)
 
+# Inherit some common TWRP stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
+
 $(call inherit-product, device/mid/G1H/device.mk)
 
 PRODUCT_DEVICE := G1H
