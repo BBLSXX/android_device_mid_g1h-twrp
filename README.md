@@ -22,3 +22,4 @@ vendor_boot command line is not changed.
 # SPDX-License-Identifier: Apache-2.0
 #
 ```
+此设备树存在问题
